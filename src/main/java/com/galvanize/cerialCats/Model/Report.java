@@ -40,7 +40,7 @@ public class Report {
     List<String> witnessTelephone;
 
     @ElementCollection
-    List<String> departmentInvolved = new ArrayList<>();
+    List<String> departmentsInvolved = new ArrayList<>();
 
     @Lob
     String description;
@@ -50,7 +50,7 @@ public class Report {
 
     String patientName;
 
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    // User has privileged access to read SSN
     String patientSSN;
 
     String patientPhone;
@@ -133,12 +133,12 @@ public class Report {
     }
 
 
-    public List<String> getDepartmentInvolved() {
-        return departmentInvolved;
+    public List<String> getDepartmentsInvolved() {
+        return departmentsInvolved;
     }
 
-    public void setDepartmentInvolved(List<String> departmentInvolved) {
-        this.departmentInvolved = departmentInvolved;
+    public void setDepartmentsInvolved(List<String> departmentsInvolved) {
+        this.departmentsInvolved = departmentsInvolved;
     }
 
     public String getDescription() {

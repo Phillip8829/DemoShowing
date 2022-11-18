@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74fb6cf1-8411-4162-963a-e40d29cfe0a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DemoShowing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galvanize/cerialCats/Controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galvanize/cerialCats/Controller/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galvanize/cerialCats/Model/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galvanize/cerialCats/Model/Report.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +49,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -154,7 +158,8 @@
       <workItem from="1668099254891" duration="1350000" />
       <workItem from="1668100720614" duration="15909000" />
       <workItem from="1668629227016" duration="120000" />
-      <workItem from="1668721998950" duration="50000" />
+      <workItem from="1668721998950" duration="1351000" />
+      <workItem from="1668784055428" duration="84000" />
     </task>
     <servers />
   </component>

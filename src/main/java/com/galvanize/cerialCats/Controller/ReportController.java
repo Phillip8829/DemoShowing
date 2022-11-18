@@ -109,7 +109,7 @@ public class ReportController {
                     }
                     case "departmentInvolved" -> {
                         List<String> listo = (List<String>) entry.getValue();
-                        holder.setDepartmentInvolved(listo);
+                        holder.setDepartmentsInvolved(listo);
                     }
 
                     case "description" -> holder.setDescription(entry.getValue().toString());
