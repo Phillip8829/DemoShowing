@@ -6,13 +6,16 @@ import com.galvanize.cerialCats.Repo.ReportRepo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import java.time.LocalDateTime;
 import java.util.*;
 
 @RestController
 @RequestMapping("/Report")
-@CrossOrigin(origins = "https://phillipmyportfolio.com" )
+@CrossOrigin(origins = "https://phillipmyportfolio.com",  allowedHeaders = "https://phillipmyportfolio.com" )
+@EnableWebMvc
+
 public class ReportController {
 
     ReportRepo reportRepo;
