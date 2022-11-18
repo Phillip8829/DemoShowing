@@ -12,7 +12,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/Report")
-@CrossOrigin()
+@CrossOrigin(origins = "https://phillipmyportfolio.com" )
 public class ReportController {
 
     ReportRepo reportRepo;
