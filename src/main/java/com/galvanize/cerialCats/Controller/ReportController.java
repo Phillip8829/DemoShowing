@@ -13,7 +13,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/Report")
-@CrossOrigin(origins = "https://phillipmyportfolios.com",  allowedHeaders = "https://phillipmyportfolios.com" )
+@CrossOrigin(origins = "https://phillipmyportfolio.com",  allowedHeaders = "https://phillipmyportfolio.com" )
 @EnableWebMvc
 
 public class ReportController {
